@@ -1,0 +1,5 @@
+; Rick Forristall - project for McMURRY/TMG
+name = cURL Service - one-stop shopping for all your cURL needs
+description = a generalized module for processing cURL request
+package = cURL Service
+core = 7.x

@@ -1,0 +1,33 @@
+<?php
+/**
+ * helloword module contains some tutorial code
+ */
+
+/**
+ * Implements hook_menu()
+ * @return array
+ */
+function helloworld_menu() {
+	$items = array();
+	$items['hello_world']	= array(
+		'title'				=> 'Hello There World',
+		'page callback'		=> '_page_hello_world',
+		'access callback'	=> TRUE,
+		'menu_name'			=> 'main-menu',
+	);
+	
+	return $items;
+}
+
+/**
+ * Page callback mapped to the url /hello_world
+ *
+ * @return array
+ */
+function _page_hello_world() {
+	$page_gunk	= array(
+		'#markup'		=> '<p>YO World!</p>'
+	);
+	
+	return $page_gunk;
+}

@@ -1,0 +1,5 @@
+name = Current Posts
+description = A block module that lists links to recent posts.
+core = 7.x
+; NEW LINE
+configure = admin/config/content/current_posts

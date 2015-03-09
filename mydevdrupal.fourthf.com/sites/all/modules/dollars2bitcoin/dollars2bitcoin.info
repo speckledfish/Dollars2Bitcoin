@@ -1,0 +1,8 @@
+; Rick Forristall - project for McMURRY/TMG
+name = Dollars to Bitcoin
+description = a quick method to convert dollars to their bitcoin value
+package = Dollars to Bitcoin
+dependencies[] = local_curl_service
+
+core = 7.x
+configure = admin/config/content/dollars2bitcoin
